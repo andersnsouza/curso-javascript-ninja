@@ -69,31 +69,17 @@ Crie uma função com as seguintes características:
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
 function superFuncao(x, y, z){
-
+    
     if(x !== undefined && y === undefined && z === undefined) {
         return x;
-    } else if(x === undefined && y !== undefined && z === undefined){
-        return y;
-    } else if(x === undefined && y === undefined && z !== undefined) {
-        return z;
-    }
-
-    if(x !== undefined && y !== undefined && z === undefined) {
+    } else if(x !== undefined && y !== undefined && z === undefined) {
         return x + y;
-    } else if(x !== undefined && y === undefined && z !== undefined){
-        return z + z;
-    } else if(x === undefined && y !== undefined && z === undefined){
-        return y + z;
-    }
-
-    if(x !== undefined && y !== undefined && z !== undefined){
+    } else if(x !== undefined && y !== undefined && z !== undefined){
         return (x + y) / z;
     }
-
     if(x === undefined && y === undefined && z === undefined){
         return false;
     }
-
     return null;
 }
 
