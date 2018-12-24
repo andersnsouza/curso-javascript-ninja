@@ -199,7 +199,7 @@ correta, de acordo com os dados inseridos no objeto.
 
 pessoa.apresentacao = function(){
 
-    var textoSexo = pessoa.sexo === ' Masculino ' ? ' o ' : 'a ';
+    var textoSexo = pessoa.sexo === 'Masculino' ? ' o ' : 'a ';
     var textoIdade = pessoa.idade === 1 ? ' ano ' : ' anos ';
     var textoMetros = pessoa.caminhouQuantosMetros === 1 ? ' metro ' : ' metros ';
 
